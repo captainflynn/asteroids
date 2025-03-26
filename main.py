@@ -34,7 +34,7 @@ def main():
         for asteroid in asteroids:
             if asteroid.collision(player):
                 print("Gane over!")
-                sys.exit*()
+                sys.exit()
 
         screen.fill("black")
         
